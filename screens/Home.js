@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function Home() {
     const [users, setUsers] = useState([]);
 
-
+//retrieve everything
     const GetData = async ()=>{
         const db = getFirestore();
 
